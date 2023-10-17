@@ -1,6 +1,6 @@
 from gpiozero import LED
 from time import sleep
-print("Hola")
+
 # Configuración de pines GPIO
 led_azul = LED(17)  # Define un objeto LED para el pin GPIO 17
 led_rojo = LED(18)  # Define un objeto LED para el pin GPIO 18
